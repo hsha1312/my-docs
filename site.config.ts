@@ -3,7 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   // Replace with your deployed site URL before publishing.
   url: 'https://example.com/',
-  lang: 'en',
+  lang: 'es-ES',
+  languages: ['zh-CN', 'es-ES'],
   timezone: 'UTC',
   title: 'My Site',
   author: {
